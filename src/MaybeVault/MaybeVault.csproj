@@ -6,6 +6,31 @@
     <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+
+    <!-- Assembly Information -->
+    <AssemblyTitle>MaybeVault</AssemblyTitle>
+    <Product>MaybeVault</Product>
+    <Description>Desktop application for archiving files you probably won't need again</Description>
+
+    <!-- Version Information - Keep these three in sync with MaybeVaultCore.csproj and app.manifest -->
+    <Version>0.1.0</Version>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
+    <FileVersion>0.1.0</FileVersion>
+
+    <!-- Author and Legal -->
+    <Authors>Yoshinao Inoguchi</Authors>
+    <Company>Yoshinao Inoguchi</Company>
+    <Copyright>Copyright (c) 2025 Yoshinao Inoguchi</Copyright>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+
+    <!-- Repository -->
+    <RepositoryUrl>https://github.com/nao7sep/MaybeVault</RepositoryUrl>
+
+    <!-- Localization -->
+    <NeutralLanguage>en-US</NeutralLanguage>
+
+    <!-- Application Icon -->
+    <ApplicationIcon>Assets\avalonia-logo.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -24,5 +49,9 @@
       <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
     </PackageReference>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MaybeVaultCore\MaybeVaultCore.csproj" />
   </ItemGroup>
 </Project>
