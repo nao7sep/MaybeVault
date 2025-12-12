@@ -7,6 +7,9 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
 
+    <!-- Root namespace explicitly set for consistency within the solution -->
+    <RootNamespace>MaybeVault</RootNamespace>
+
     <!-- Assembly Information -->
     <AssemblyTitle>MaybeVault</AssemblyTitle>
     <Product>MaybeVault</Product>
