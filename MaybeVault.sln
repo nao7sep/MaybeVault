@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaybeVaultCore", "src\Maybe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaybeVaultTests", "tests\MaybeVaultTests\MaybeVaultTests.csproj", "{DBF97F61-249F-44DC-A5CA-F2929675CE7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaybeVaultCoreTests", "tests\MaybeVaultCoreTests\MaybeVaultCoreTests.csproj", "{DBF97F61-249F-44DC-A5CA-F2929675CE7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
